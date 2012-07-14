@@ -12,5 +12,8 @@
 
   IBOutlet UILabel *mylabel;
     
+    
+    
+    
 }
 @end
