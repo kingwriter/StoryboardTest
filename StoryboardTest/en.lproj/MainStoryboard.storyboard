@@ -83,7 +83,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-40" y="-974"/>
+            <point key="canvasLocation" x="139" y="-990"/>
         </scene>
         <!--View Controller - New Song-->
         <scene sceneID="bVW-Zc-TA6">
@@ -147,7 +147,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-856" y="1387"/>
+            <point key="canvasLocation" x="-810" y="1315"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hvd-Z7-O4z">
@@ -178,7 +178,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-21" y="275"/>
+            <point key="canvasLocation" x="139" y="154"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hfm-7c-zua">
@@ -209,7 +209,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1239" y="251"/>
+            <point key="canvasLocation" x="1127" y="154"/>
         </scene>
     </scenes>
     <resources>
@@ -230,6 +230,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="1MP-WE-jEW"/>
-        <segue reference="LIy-iL-WC8"/>
+        <segue reference="tci-gJ-mOt"/>
     </inferredMetricsTieBreakers>
 </document>
