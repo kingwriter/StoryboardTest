@@ -15,6 +15,8 @@
 		4474286C15AB748800A18E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474286B15AB748800A18E8C /* AppDelegate.m */; };
 		4474286F15AB748800A18E8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4474286D15AB748800A18E8C /* MainStoryboard.storyboard */; };
 		4474287215AB748800A18E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474287115AB748800A18E8C /* ViewController.m */; };
+		4474287915AB861100A18E8C /* glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4474287815AB861100A18E8C /* glass.jpg */; };
+		4474287F15ACD94900A18E8C /* 1341956500_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4474287E15ACD94900A18E8C /* 1341956500_15.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		4474285B15AB748800A18E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4474285D15AB748800A18E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4474285F15AB748800A18E8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4474286315AB748800A18E8C /* StoryboardTest-Info.plist */ = {isa = PBXFileReference; path = "StoryboardTest-Info.plist"; sourceTree = "<group>"; };
+		4474286315AB748800A18E8C /* StoryboardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTest-Info.plist"; sourceTree = "<group>"; };
 		4474286515AB748800A18E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4474286715AB748800A18E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4474286915AB748800A18E8C /* StoryboardTest-Prefix.pch */ = {isa = PBXFileReference; path = "StoryboardTest-Prefix.pch"; sourceTree = "<group>"; };
-		4474286A15AB748800A18E8C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4474286915AB748800A18E8C /* StoryboardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardTest-Prefix.pch"; sourceTree = "<group>"; };
+		4474286A15AB748800A18E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4474286B15AB748800A18E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4474286E15AB748800A18E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4474287015AB748800A18E8C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4474287015AB748800A18E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4474287115AB748800A18E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4474287815AB861100A18E8C /* glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = glass.jpg; path = "../../../../Downloads/iKeys Gafiken/给彭卓/给彭卓/glass.jpg"; sourceTree = "<group>"; };
+		4474287C15ACD45800A18E8C /* 1341955105_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1341955105_15.png; sourceTree = "<group>"; };
+		4474287E15ACD94900A18E8C /* 1341956500_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1341956500_15.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,8 @@
 		4474284C15AB748800A18E8C = {
 			isa = PBXGroup;
 			children = (
+				4474287E15ACD94900A18E8C /* 1341956500_15.png */,
+				4474287C15ACD45800A18E8C /* 1341955105_15.png */,
 				4474286115AB748800A18E8C /* StoryboardTest */,
 				4474285A15AB748800A18E8C /* Frameworks */,
 				4474285815AB748800A18E8C /* Products */,
@@ -77,6 +84,7 @@
 		4474286115AB748800A18E8C /* StoryboardTest */ = {
 			isa = PBXGroup;
 			children = (
+				4474287815AB861100A18E8C /* glass.jpg */,
 				4474286A15AB748800A18E8C /* AppDelegate.h */,
 				4474286B15AB748800A18E8C /* AppDelegate.m */,
 				4474286D15AB748800A18E8C /* MainStoryboard.storyboard */,
@@ -150,6 +158,8 @@
 			files = (
 				4474286615AB748800A18E8C /* InfoPlist.strings in Resources */,
 				4474286F15AB748800A18E8C /* MainStoryboard.storyboard in Resources */,
+				4474287915AB861100A18E8C /* glass.jpg in Resources */,
+				4474287F15ACD94900A18E8C /* 1341956500_15.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +252,7 @@
 				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
 				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -253,6 +264,7 @@
 				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
 				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
