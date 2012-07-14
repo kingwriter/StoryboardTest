@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445DEBE915B1A93300862A6F /* glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445DEBE815B1A93300862A6F /* glass.jpg */; };
 		4474285C15AB748800A18E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474285B15AB748800A18E8C /* UIKit.framework */; };
 		4474285E15AB748800A18E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474285D15AB748800A18E8C /* Foundation.framework */; };
 		4474286015AB748800A18E8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474285F15AB748800A18E8C /* CoreGraphics.framework */; };
@@ -15,11 +16,11 @@
 		4474286C15AB748800A18E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474286B15AB748800A18E8C /* AppDelegate.m */; };
 		4474286F15AB748800A18E8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4474286D15AB748800A18E8C /* MainStoryboard.storyboard */; };
 		4474287215AB748800A18E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474287115AB748800A18E8C /* ViewController.m */; };
-		4474287915AB861100A18E8C /* glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4474287815AB861100A18E8C /* glass.jpg */; };
 		4474287F15ACD94900A18E8C /* 1341956500_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4474287E15ACD94900A18E8C /* 1341956500_15.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		445DEBE815B1A93300862A6F /* glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glass.jpg; sourceTree = "<group>"; };
 		4474285715AB748800A18E8C /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4474285B15AB748800A18E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4474285D15AB748800A18E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,7 +34,6 @@
 		4474286E15AB748800A18E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4474287015AB748800A18E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4474287115AB748800A18E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4474287815AB861100A18E8C /* glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = glass.jpg; path = "../../../../Downloads/iKeys Gafiken/给彭卓/给彭卓/glass.jpg"; sourceTree = "<group>"; };
 		4474287C15ACD45800A18E8C /* 1341955105_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1341955105_15.png; sourceTree = "<group>"; };
 		4474287E15ACD94900A18E8C /* 1341956500_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1341956500_15.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +84,7 @@
 		4474286115AB748800A18E8C /* StoryboardTest */ = {
 			isa = PBXGroup;
 			children = (
-				4474287815AB861100A18E8C /* glass.jpg */,
+				445DEBE815B1A93300862A6F /* glass.jpg */,
 				4474286A15AB748800A18E8C /* AppDelegate.h */,
 				4474286B15AB748800A18E8C /* AppDelegate.m */,
 				4474286D15AB748800A18E8C /* MainStoryboard.storyboard */,
@@ -158,8 +158,8 @@
 			files = (
 				4474286615AB748800A18E8C /* InfoPlist.strings in Resources */,
 				4474286F15AB748800A18E8C /* MainStoryboard.storyboard in Resources */,
-				4474287915AB861100A18E8C /* glass.jpg in Resources */,
 				4474287F15ACD94900A18E8C /* 1341956500_15.png in Resources */,
+				445DEBE915B1A93300862A6F /* glass.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +288,7 @@
 				4474287715AB748800A18E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
