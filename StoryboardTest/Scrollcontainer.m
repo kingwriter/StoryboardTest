@@ -46,6 +46,7 @@
     [text drawInRect:textRect withFont:font];
     }
 
+
     - (id)initWithFrame:(CGRect)frame {
         self = [super initWithFrame:frame]; if (self) {
             // All HypnosisViews start with a clear background color
