@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441EFECD15B2D31B008011C1 /* Scrollcontainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 441EFECC15B2D31B008011C1 /* Scrollcontainer.m */; };
+		441EFED415B2E356008011C1 /* NewSongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441EFED315B2E356008011C1 /* NewSongViewController.m */; };
 		445DEBE915B1A93300862A6F /* glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 445DEBE815B1A93300862A6F /* glass.jpg */; };
 		4474285C15AB748800A18E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474285B15AB748800A18E8C /* UIKit.framework */; };
 		4474285E15AB748800A18E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474285D15AB748800A18E8C /* Foundation.framework */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		441EFECB15B2D31B008011C1 /* Scrollcontainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scrollcontainer.h; sourceTree = "<group>"; };
+		441EFECC15B2D31B008011C1 /* Scrollcontainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scrollcontainer.m; sourceTree = "<group>"; };
+		441EFED215B2E356008011C1 /* NewSongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewSongViewController.h; path = ../NewSongViewController.h; sourceTree = "<group>"; };
+		441EFED315B2E356008011C1 /* NewSongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewSongViewController.m; path = ../NewSongViewController.m; sourceTree = "<group>"; };
 		445DEBE815B1A93300862A6F /* glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glass.jpg; sourceTree = "<group>"; };
 		4474285715AB748800A18E8C /* StoryboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4474285B15AB748800A18E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -84,6 +90,10 @@
 		4474286115AB748800A18E8C /* StoryboardTest */ = {
 			isa = PBXGroup;
 			children = (
+				441EFED215B2E356008011C1 /* NewSongViewController.h */,
+				441EFED315B2E356008011C1 /* NewSongViewController.m */,
+				441EFECB15B2D31B008011C1 /* Scrollcontainer.h */,
+				441EFECC15B2D31B008011C1 /* Scrollcontainer.m */,
 				445DEBE815B1A93300862A6F /* glass.jpg */,
 				4474286A15AB748800A18E8C /* AppDelegate.h */,
 				4474286B15AB748800A18E8C /* AppDelegate.m */,
@@ -173,6 +183,8 @@
 				4474286815AB748800A18E8C /* main.m in Sources */,
 				4474286C15AB748800A18E8C /* AppDelegate.m in Sources */,
 				4474287215AB748800A18E8C /* ViewController.m in Sources */,
+				441EFECD15B2D31B008011C1 /* Scrollcontainer.m in Sources */,
+				441EFED415B2E356008011C1 /* NewSongViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
