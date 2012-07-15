@@ -7,6 +7,7 @@
 //
 
 #import "NewSongViewController.h"
+#import "Melodview.h"
 #import "Scrollcontainer.h"
 
 @interface NewSongViewController ()
@@ -29,23 +30,21 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     // bounds...?
+    CGRect bounds = [self.view bounds];
+    CGRect lowerhalfscreen = CGRectMake( bounds.size.height / 2.0, 0, bounds.size.height, bounds.size.width);
     CGRect screenRect = CGRectMake(20, 30, 500, 500);
-    // Create the UIScrollView to have the size of the window, matching its size 
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect]; [[self view] addSubview:scrollView];
-    //CGRect anotherFrame = CGRectMake(20, 30, 500, 500);
-    //Scrollcontainer *scroll = [[Scrollcontainer alloc] initWithFrame:anotherFrame]; 
-    
-    CGRect bigRect = screenRect;
+    CGRect bigRect = CGRectMake(20, 30, 500, 500);
     bigRect.size.width *= 2.0;
-    bigRect.size.height *= 2.0;
+    
+    Melodview *melodview = [[Melodview alloc] initWithFrame:lowerhalfscreen];
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect]; [[self view] addSubview:scrollView];
     Scrollcontainer *scroll = [[Scrollcontainer alloc] initWithFrame:bigRect];
-    // Add the HypnosisView as a subview of the scrollView instead of the window 
-    [scrollView addSubview:scroll];
-    // Tell the scrollView how big its virtual world is [scrollView setContentSize:bigRect.size];
 
     //[scroll setBackgroundColor:[UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:0.5]];
-    [[self view] addSubview:scrollView];
-    //[view addSubview:anotherView];
+    [[self view] addSubview:melodview];
+    [melodview addSubview:scrollView];
+    [scrollView addSubview:scroll];
+
     
     [scrollView setContentSize:bigRect.size];
 }

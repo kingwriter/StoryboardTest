@@ -19,6 +19,7 @@
 		4474286F15AB748800A18E8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4474286D15AB748800A18E8C /* MainStoryboard.storyboard */; };
 		4474287215AB748800A18E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474287115AB748800A18E8C /* ViewController.m */; };
 		4474287F15ACD94900A18E8C /* 1341956500_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 4474287E15ACD94900A18E8C /* 1341956500_15.png */; };
+		63E6A95815B2FE7100DD0D17 /* Melodview.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E6A95715B2FE7100DD0D17 /* Melodview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		4474287115AB748800A18E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4474287C15ACD45800A18E8C /* 1341955105_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1341955105_15.png; sourceTree = "<group>"; };
 		4474287E15ACD94900A18E8C /* 1341956500_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1341956500_15.png; sourceTree = "<group>"; };
+		63E6A95615B2FE7100DD0D17 /* Melodview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Melodview.h; sourceTree = "<group>"; };
+		63E6A95715B2FE7100DD0D17 /* Melodview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Melodview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				4474287015AB748800A18E8C /* ViewController.h */,
 				4474287115AB748800A18E8C /* ViewController.m */,
 				4474286215AB748800A18E8C /* Supporting Files */,
+				63E6A95615B2FE7100DD0D17 /* Melodview.h */,
+				63E6A95715B2FE7100DD0D17 /* Melodview.m */,
 			);
 			path = StoryboardTest;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				4474287215AB748800A18E8C /* ViewController.m in Sources */,
 				441EFECD15B2D31B008011C1 /* Scrollcontainer.m in Sources */,
 				441EFED415B2E356008011C1 /* NewSongViewController.m in Sources */,
+				63E6A95815B2FE7100DD0D17 /* Melodview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
